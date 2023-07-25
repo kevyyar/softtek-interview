@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ITodo from "../interfaces/Todo";
+import ITodo from "../interfaces/ITodo";
 
 function Todo() {
   const [data, setData] = useState<ITodo[]>([]);
